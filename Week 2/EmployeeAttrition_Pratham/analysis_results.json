@@ -1,0 +1,71 @@
+{
+  "dataset_rows": 1470,
+  "dataset_columns": 35,
+  "attrition_rate_percent": 16.12,
+  "best_model": "Logistic Regression",
+  "model_comparison": [
+    {
+      "Model": "Logistic Regression",
+      "Precision": 0.3488,
+      "Recall": 0.6383,
+      "F1-Score": 0.4511,
+      "ROC-AUC": 0.8032
+    },
+    {
+      "Model": "Random Forest",
+      "Precision": 0.4634,
+      "Recall": 0.4043,
+      "F1-Score": 0.4318,
+      "ROC-AUC": 0.7954
+    },
+    {
+      "Model": "Gradient Boosting",
+      "Precision": 0.3793,
+      "Recall": 0.4681,
+      "F1-Score": 0.419,
+      "ROC-AUC": 0.7771
+    }
+  ],
+  "top_features": [
+    {
+      "Feature": "JobRole_Laboratory Technician",
+      "Importance": 1.19433
+    },
+    {
+      "Feature": "JobRole_Sales Representative",
+      "Importance": 1.12062
+    },
+    {
+      "Feature": "BusinessTravel_Travel_Frequently",
+      "Importance": 0.78757
+    },
+    {
+      "Feature": "OverTime_Yes",
+      "Importance": 0.76152
+    },
+    {
+      "Feature": "EducationField_Human Resources",
+      "Importance": 0.72113
+    },
+    {
+      "Feature": "JobLevel",
+      "Importance": 0.60743
+    },
+    {
+      "Feature": "YearsSinceLastPromotion",
+      "Importance": 0.50253
+    },
+    {
+      "Feature": "JobRole_Human Resources",
+      "Importance": 0.46389
+    },
+    {
+      "Feature": "NumCompaniesWorked",
+      "Importance": 0.4605
+    },
+    {
+      "Feature": "MaritalStatus_Single",
+      "Importance": 0.45728
+    }
+  ]
+}
